@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export interface ButtonConfig {
   type: string;
@@ -6,7 +6,7 @@ export interface ButtonConfig {
   onClick: () => void;
 }
 
-export interface  AlertProps  {
+export interface AlertProps {
   type: string;
   onDismiss?: () => void;
   children: React.ReactNode;
